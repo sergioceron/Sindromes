@@ -1,0 +1,26 @@
+body					{padding-bottom:10px;}	
+.navcat					{height:15px;}
+.themepost				{overflow:auto;}
+.related ul li 			{padding:0; margin:0; line-height:12px;}
+.related ul li small	{margin-top:3px;}
+#sidebar .floatL		{width:47%;}
+#sidebar .floatR		{width:48%;}
+.meta ul				{margin:0px 5px 5px 0px;}
+#sidebar ul#feedList{
+	width:325px;
+	padding:0px;
+	}
+
+.contactleft {
+	margin: 10px 0 0 0 ;
+}	
+
+div.contactright {
+	float:left;
+}
+
+.contactform #wpcf_your_name,
+.contactform #wpcf_email,
+.contactform #wpcf_website
+{width:300px; padding:5px 5px 5px 25px; border: 1px solid #CCC;  }
+.required{display:none;}

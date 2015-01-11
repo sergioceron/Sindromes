@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="511.5" y="266.0">org.sg.recognition.validations.KFoldCrossValidation</node>
+    <node x="317.5" y="-14.0">org.sg.recognition.classifiers.mNN</node>
+    <node x="263.5" y="186.0">ExperimenterController</node>
+    <node x="746.5" y="186.0">Dao</node>
+    <node x="288.5" y="386.0">org.sg.recognition.ArffParser</node>
+    <node x="98.0" y="306.0">S3Manager</node>
+    <node x="-30.0" y="186.0">javax.faces.bean.ManagedBean</node>
+    <node x="717.0" y="66.0">MongoDataSetDao</node>
+    <node x="159.5" y="-14.0">org.sg.recognition.classifiers.kNN</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ExperimenterController" target="org.sg.recognition.ArffParser">
+      <point x="0.0" y="14.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="ExperimenterController" target="org.sg.recognition.classifiers.mNN">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ExperimenterController" target="MongoDataSetDao">
+      <point x="40.0" y="-14.0" />
+      <point x="387.0" y="80.0" />
+      <point x="-70.0" y="-0.0" />
+    </edge>
+    <edge source="ExperimenterController" target="Dao">
+      <point x="83.5" y="-0.0" />
+      <point x="-40.5" y="-0.0" />
+    </edge>
+    <edge source="ExperimenterController" target="org.sg.recognition.validations.KFoldCrossValidation">
+      <point x="40.0" y="14.0" />
+      <point x="387.0" y="280.0" />
+      <point x="-75.5" y="-0.0" />
+    </edge>
+    <edge source="ExperimenterController" target="javax.faces.bean.ManagedBean">
+      <point x="-83.5" y="-0.0" />
+      <point x="57.0" y="-0.0" />
+    </edge>
+    <edge source="org.sg.recognition.classifiers.mNN" target="org.sg.recognition.classifiers.kNN">
+      <point x="-29.5" y="-0.0" />
+      <point x="27.5" y="-0.0" />
+    </edge>
+    <edge source="MongoDataSetDao" target="Dao">
+      <point x="0.0" y="14.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="ExperimenterController" target="org.sg.recognition.classifiers.kNN">
+      <point x="-83.5" y="-8.0" />
+      <point x="187.0" y="192.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="ExperimenterController" target="S3Manager">
+      <point x="-83.5" y="8.0" />
+      <point x="147.0" y="208.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="413.5" y="236.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
