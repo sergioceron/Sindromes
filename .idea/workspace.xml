@@ -1,7 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3903abec-7d93-42a7-9619-cee6ae041033" name="Default" comment="" />
+    <list default="true" id="3903abec-7d93-42a7-9619-cee6ae041033" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\AlgorithmConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\AlgorithmModel.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\Dao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\DoubleConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\ExperimenterController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\FileManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\FilterConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\LocalFileManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MAABmax.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MAMMax.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MAMMaxI.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MongoDataSetDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\S3Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\ValidationResult.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\VerificatorController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\descriptor.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\faces-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\PatternRecognition.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\aws-java-sdk-1.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\bootstrap-1.0.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\commons-codec-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\commons-fileupload-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\commons-io-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\delta-1.0.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\httpclient-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\httpcore-4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\httpmime-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\jsf-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\jsf-impl.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\jstl-1.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\mongo-java-driver-2.10.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\portlet-api-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\primefaces-3.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\servlet-api-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\slf4j-api-1.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\slf4j-simple-1.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\about.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\ajaxloadingbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\experimenter.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\index.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\index_form.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\IE8.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\coolplayer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\expansion_embed.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\ifx.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\mootools.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\mootools.v1.1.full.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\syntax_hilite_js.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\sindromes.tar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\15.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\alpha20.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\backBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\backBtn1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\bg_menu.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\bg_menu_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\btnSprite.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\classificateBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\dashboardHdr.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delete.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delgroupsBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delmodulesBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delsensorBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\deltasksBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delusersBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\disableBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\edit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\entryBg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\exclamation.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\greyBg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\greyHdr.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\hdrBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\hdrMod.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\icon_form.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\ie.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\ie6.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\20080819-ejtndn7s9bxae6uwfgd5ncdqht.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\abg-es-100c-000000.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\addLink.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\bg_coms.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\bg_menu.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\bg_menu_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btnGoLink.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_comments.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_feedComments.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_feedPost.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_relacionados.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\busy_b.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\cd-case-template.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\chrisbuzelli_owlskeleton-150x150.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\close_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\dvd-case-template.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\dvd-case-template2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\footerWrap_b.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\g.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\hdrBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_arrowdown.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_bullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_bulletmore.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_feedlist.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_infoDark.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_logoff.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_pownce.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_profile.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_read.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_search.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\linedots.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\loginBullet.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\oxidizzy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_facelift.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_jqueryplugins.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_nethersphere-150x150.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_swffit.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\pause_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\play_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBgFirst.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBgFirst.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBgFirst1.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\pulldown.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\quote.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\ref_spiga.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\ref_wp.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\searchBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\sponsorsBg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\subHdrBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\text_link_ads_A_180x60.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\webBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\wrapBgbig.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\info.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\itunsTh.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\itunsThSort.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\lightOff.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\lightOn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\login.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuAL.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuAR.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuNL.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuNR.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\navBg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newgroupBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newmoduleBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newsensorBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newtaskBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newuserBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\nextBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\nextBtn1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\postBgFirst.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\quickNavBg.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\saveBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\sortArrows.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\systemHdr.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\validateBtn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\verificatorHdr.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\webBg.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\verificator.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\AlgorithmConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\AlgorithmModel.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\Dao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\DoubleConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\ExperimenterController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\FileManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\FilterConverter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\LocalFileManager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MAABmax.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MAMMax.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MAMMaxI.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MongoDataSetDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\S3Manager.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\ValidationResult.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\VerificatorController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\descriptor.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Sindromes.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,14 +279,8 @@
       <file leaf-file-name="MongoDataSetDao.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="19" selection-start="2780" selection-end="2780" vertical-scroll-proportion="0.390625" vertical-offset="2210" max-vertical-offset="2850">
-              <folding>
-                <element signature="e#1049#1064#0" expanded="true" />
-                <element signature="e#1759#1767#0" expanded="true" />
-                <element signature="e#2038#2055#0" expanded="true" />
-                <element signature="e#2205#2213#0" expanded="true" />
-                <element signature="e#2573#2590#0" expanded="true" />
-              </folding>
+            <state line="98" column="10" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.71875" vertical-offset="2210" max-vertical-offset="2850">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +327,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -193,7 +388,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -227,6 +422,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,6 +442,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sindromes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sindromes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sindromes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sindromes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sindromes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,7 +507,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,6 +753,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -543,12 +776,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false">
@@ -668,12 +895,13 @@
       <workItem from="1401768329047" duration="1706000" />
       <workItem from="1401809003265" duration="2388000" />
       <workItem from="1401850994342" duration="632000" />
-      <workItem from="1420999669729" duration="255000" />
+      <workItem from="1420999669729" duration="1575000" />
+      <workItem from="1421001494740" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13998000" />
+    <option name="totallyTimeSpent" value="15913000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -697,7 +925,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32597622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -782,13 +1010,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="42" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1805">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,13 +1045,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="33" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1805">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,13 +1080,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1976">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -905,13 +1115,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1456">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -946,13 +1150,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1456">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -987,13 +1185,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1456">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,13 +1213,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1456">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,13 +1234,7 @@
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,14 +1322,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="19" selection-start="2780" selection-end="2780" vertical-scroll-proportion="0.390625" vertical-offset="2210" max-vertical-offset="2850">
-          <folding>
-            <element signature="e#1049#1064#0" expanded="true" />
-            <element signature="e#1759#1767#0" expanded="true" />
-            <element signature="e#2038#2055#0" expanded="true" />
-            <element signature="e#2205#2213#0" expanded="true" />
-            <element signature="e#2573#2590#0" expanded="true" />
-          </folding>
+        <state line="98" column="10" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.71875" vertical-offset="2210" max-vertical-offset="2850">
+          <folding />
         </state>
       </provider>
     </entry>
