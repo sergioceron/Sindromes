@@ -8,7 +8,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
     <title>
-        SWIVS - Sistema Web Interactivo para la Verificación de Síndromes
+        AlfaBeta Research
     </title>
 
     <link rel="stylesheet" href="./style/style.css" type="text/css" media="screen"/>
@@ -29,24 +29,6 @@
     <a name="top" id="top"></a>
     <h:form prependId="false" styleClass="classicform" id="form1">
     <div id="container" class="main">
-        <div id="header">
-            <p:commandLink oncomplete="about.show()" id="login">Inciar Sesion</p:commandLink>
-
-            <div id="menu">
-                <ul id="pages_list">
-                    <li class="page_item"><a href="./experimenter.faces" title="Experimenter">Experimenter</a></li>
-                    <li class="current_page_item"><a href="#" title="Verificator">Verificator</a></li>
-                    <li class="background" style="left: 686px; width: 80px; visibility: visible; zoom: 1; opacity: 1;"
-                            ><div class="left"></div>
-                    </li>
-                </ul>
-            </div>
-            <h1>
-                <a title="SWIVS - Sistema Web Interactivo para la Verificación de Síndromes" href="#">
-                    SWIVS - Sistema Web Interactivo para la Verificación de Síndromes
-                </a>
-            </h1>
-        </div>
 
         <div id="wrapper">
             <div id="content">
@@ -69,10 +51,10 @@
 
                         <p:outputPanel id="submenu" deferred="true">
                                 <ul class="nav">
-                                    <li class="page_item #{verificatorController.step eq 0 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(0)}">Algoritmo</p:commandLink></li>
-                                    <li class="page_item #{verificatorController.step eq 1 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(1)}">Entrenamiento</p:commandLink></li>
-                                    <li class="page_item #{verificatorController.step eq 2 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(2)}">Clasificación</p:commandLink></li>
-                                    <li class="page_item #{verificatorController.step eq 3 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(3)}">Resultados</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 0 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(0)}">Algorithm</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 1 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(1)}">Training</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 2 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(2)}">Classification</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 3 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(3)}">Results</p:commandLink></li>
                                 </ul>
                         </p:outputPanel>
                         <div class="entry">
@@ -80,7 +62,7 @@
                                 <!-- // Contenido -->
                                 <p:outputPanel id="view1" deferred="true" rendered="#{verificatorController.step eq 0}">
                                     <div class="tablewrapper">
-                                        <span class="instructions">Seleccione el algoritmo de clasifiación a utilizar:</span>
+                                        <span class="instructions">Select the algorithm to use:</span>
                                         <p:dataTable var="algorithm" value="#{verificatorController.algorithmModel}" id="resultValidation"
                                                      styleClass="ituns border"
                                                      paginator="true" rows="10"
@@ -89,25 +71,25 @@
                                                      selection="#{verificatorController.selectedAlgorithm}">
                                             <p:column selectionMode="single" style="width:2%" />
                                             <p:column>
-                                                <f:facet name="header">Nombre</f:facet>
+                                                <f:facet name="header">Name</f:facet>
                                                 #{algorithm.name}
                                             </p:column>
                                             <p:column>
-                                                <f:facet name="header">Descripcion</f:facet>
+                                                <f:facet name="header">Description</f:facet>
                                                 #{algorithm.information.getField('TITLE')}
                                             </p:column>
                                             <p:column>
-                                                <f:facet name="header">Tipo</f:facet>
+                                                <f:facet name="header">Type</f:facet>
                                                 #{algorithm.information.getField('TYPE')}
                                             </p:column>
                                             <p:column>
-                                                <f:facet name="header">Categoria</f:facet>
+                                                <f:facet name="header">Category</f:facet>
                                                 #{algorithm.information.getField('CATEGORY')}
                                             </p:column>
                                             <p:column>
-                                                <f:facet name="header">Acciones</f:facet>
+                                                <f:facet name="header">Action</f:facet>
                                                 <p:commandLink oncomplete="#{algorithm.name}dlg.show()" update=":form2:configs#{algorithm.name}" icon="ui-icon-search"
-                                                               value="Configurar" rendered="#{(algorithm.name eq 'mNN') || (algorithm.name eq 'kNN')}">
+                                                               value="Configure" rendered="#{(algorithm.name eq 'mNN') || (algorithm.name eq 'kNN')}">
                                                     <f:setPropertyActionListener value="#{algorithm}" target="#{verificatorController.configureAlgorithm}" />
                                                 </p:commandLink>
                                             </p:column>
@@ -116,10 +98,10 @@
                                     </div>
                                 </p:outputPanel>
                                 <p:outputPanel id="view2" deferred="true" rendered="#{verificatorController.step eq 1}">
-                                    <span class="instructions">Seleccione el banco de datos de entrenamiento:</span>
+                                    <span class="instructions">Select the training Dataset:</span>
                                     <p:outputPanel styleClass="p">
                                         <small>(requerido</small>
-                                        <label>Banco de datos: </label>
+                                        <label>Dataset: </label>
                                         <p:selectOneMenu value="#{verificatorController.trainName}" styleClass="field" id="files" style="width: 300px">
                                             <f:selectItems value="#{verificatorController.fileManagerTrain.list()}" var="trainName"
                                                            itemLabel="#{trainName}" itemValue="#{trainName}"/>
@@ -127,17 +109,13 @@
                                     </p:outputPanel>
                                     <div class="space"></div>
                                     <p:accordionPanel multiple="true">
-                                    <p:tab title="Subir un nuevo banco de datos">
+                                    <p:tab title="Upload new training Dataset">
                                         <p:fileUpload fileUploadListener="#{verificatorController.uploadFileTrain}" mode="advanced" dragDropSupport="false"
                                                       multiple="true"
-                                                      uploadLabel="Subir"
-                                                      cancelLabel="Cancelar"
-                                                      label="Seleccionar"
+                                                      uploadLabel="Upload ARFF"
+                                                      cancelLabel="Cancel"
+                                                      label="Select"
                                                       update=":form1:view2" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(arff)$/" />
-                                    </p:tab>
-                                    <p:tab title="Aplicar un filtro de pre procesamiento">
-                                        <p:pickList id="pickList" value="#{verificatorController.filterModel}" var="filter"
-                                                    itemLabel="#{filter}" itemValue="#{filter}" />
                                     </p:tab>
                                     </p:accordionPanel>
 
@@ -146,20 +124,9 @@
 
                                     <div class="space"></div>
                                     <p:accordionPanel multiple="false">
-                                        <p:ajax event="tabChange" listener="#{verificatorController.onTabChange}"/>
-                                        <p:tab title="Instancia a clasificar" id="i1">
-                                            <p:dataGrid var="attribute" value="#{verificatorController.dataSet.attributes}" columns="2" rowIndexVar="ix">
-                                                <p:outputPanel styleClass="p">
-                                                    <label style="width:150px">#{attribute}: </label>
-                                                    <p:inputText value="#{verificatorController.classifyPattern.features[ix]}"
-                                                                 styleClass="field" style="width: 200px" converter="doubleConverter">
-                                                    </p:inputText>
-                                                </p:outputPanel>
-                                            </p:dataGrid>
-                                        </p:tab>
-                                        <p:tab title="Desde un banco de datos" id="i2">
+                                        <p:tab title="Select the testing Dataset" id="i2">
                                             <p:outputPanel styleClass="p">
-                                                <label>Banco de datos</label>
+                                                <label>Dataset</label>
                                                 <p:selectOneMenu value="#{verificatorController.testName}" styleClass="field" id="files2" style="width: 300px">
                                                     <f:selectItems value="#{verificatorController.fileManagerTest.list()}" var="testName"
                                                                    itemLabel="#{testName}" itemValue="#{testName}"/>
@@ -168,9 +135,9 @@
                                             <p:outputPanel styleClass="p">
                                                 <p:fileUpload fileUploadListener="#{verificatorController.uploadFileTest}" mode="advanced" dragDropSupport="false"
                                                               multiple="true"
-                                                              uploadLabel="Subir"
-                                                              cancelLabel="Cancelar"
-                                                              label="Seleccionar"
+                                                              uploadLabel="Upload ARFF"
+                                                              cancelLabel="Cancel"
+                                                              label="Select"
                                                               update=":form1:view3" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(arff)$/" />
                                             </p:outputPanel>
                                         </p:tab>
@@ -178,18 +145,18 @@
                                     <div class="space"></div>
                                 </p:outputPanel>
                                 <p:outputPanel id="view4" deferred="true" rendered="#{verificatorController.step eq 3}">
-                                    <span class="instructions">Resultados de la clasificación:</span>
+                                    <span class="instructions">Results of classification:</span>
                                     <p:dataTable var="resultClassification" value="#{verificatorController.resultClassify}"
                                                  rowStyleClass="white">
-                                        <p:columns value="#{verificatorController.dataSet.attributes}"
+                                        <p:columns value="#{verificatorController.attributes}"
                                                    var="featureName" columnIndexVar="colIndex" styleClass="center">
                                             <f:facet name="header">
                                                 #{featureName}
                                             </f:facet>
-                                            #{resultClassification.getFeatureAt(colIndex)}
+                                            #{resultClassification.pattern.get(colIndex)}
                                         </p:columns>
-                                        <p:column headerText="Clase" styleClass="center" style="background-color: #c4d0e7">
-                                            #{verificatorController.className(resultClassification.clase)}
+                                        <p:column headerText="Calculated" styleClass="center" style="background-color: #{resultClassification.correct ? 'rgb(223, 240, 216);' : 'rgb(242, 222, 222);'}">
+                                            #{verificatorController.className(resultClassification.pattern.classIndex)}
                                         </p:column>
                                     </p:dataTable>
                                 </p:outputPanel>
@@ -199,10 +166,10 @@
                         </div>
                         <div class="foot">
                             <p:outputPanel id="buttons">
-                                <p:commandLink update=":form1" id="validateBtn" styleClass="classifyBtn" actionListener="#{verificatorController.classify}" rendered="#{verificatorController.step eq 2}" onstart="statusDialog.show();" onsuccess="statusDialog.hide();">Clasificar</p:commandLink>
-                                <p:commandLink update=":form1" id="trainBtn" styleClass="newtaskBtn" actionListener="#{verificatorController.train}" rendered="#{verificatorController.step eq 1}">Entrenar</p:commandLink>
-                                <p:commandLink update=":form1" id="nextBtn" styleClass="#{verificatorController.step eq 3 ? 'nextBtn' : 'newtaskBtn'}" actionListener="#{verificatorController.next}" rendered="#{verificatorController.step eq 0}">Adelante</p:commandLink>
-                                <p:commandLink update=":form1" id="backBtn" styleClass="#{verificatorController.step eq 0 ? 'disableBtn' : 'backBtn'}" actionListener="#{verificatorController.back}">Atras</p:commandLink>
+                                <p:commandLink update=":form1" id="validateBtn" styleClass="classifyBtn" actionListener="#{verificatorController.classify}" rendered="#{verificatorController.step eq 2}" onstart="statusDialog.show();" onsuccess="statusDialog.hide();">Classify</p:commandLink>
+                                <p:commandLink update=":form1" id="trainBtn" styleClass="newtaskBtn" actionListener="#{verificatorController.train}" rendered="#{verificatorController.step eq 1}">Train</p:commandLink>
+                                <p:commandLink update=":form1" id="nextBtn" styleClass="#{verificatorController.step eq 3 ? 'nextBtn' : 'newtaskBtn'}" actionListener="#{verificatorController.next}" rendered="#{verificatorController.step eq 0}">Next</p:commandLink>
+                                <p:commandLink update=":form1" id="backBtn" styleClass="#{verificatorController.step eq 0 ? 'disableBtn' : 'backBtn'}" actionListener="#{verificatorController.back}">Back</p:commandLink>
                             </p:outputPanel>
                         </div>
                     </div>

@@ -1,207 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3903abec-7d93-42a7-9619-cee6ae041033" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\AlgorithmConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\AlgorithmModel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\Dao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\DoubleConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\ExperimenterController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\FileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\FilterConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\LocalFileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MAABmax.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MAMMax.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MAMMaxI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\MongoDataSetDao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\S3Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\ValidationResult.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\VerificatorController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\classes\descriptor.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\faces-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\PatternRecognition.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\aws-java-sdk-1.6.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\bootstrap-1.0.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\commons-codec-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\commons-fileupload-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\commons-io-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\delta-1.0.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\httpclient-4.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\httpcore-4.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\httpmime-4.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\jsf-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\jsf-impl.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\jstl-1.1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\mongo-java-driver-2.10.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\portlet-api-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\primefaces-3.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\servlet-api-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\slf4j-api-1.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\lib\slf4j-simple-1.5.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\about.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\ajaxloadingbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\experimenter.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\index.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\index_form.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\IE8.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\coolplayer.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\expansion_embed.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\ifx.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\mootools.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\mootools.v1.1.full.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\script\syntax_hilite_js.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\sindromes.tar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\15.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\alpha20.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\backBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\backBtn1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\bg_menu.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\bg_menu_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\btnSprite.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\classificateBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\dashboardHdr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delete.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delgroupsBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delmodulesBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delsensorBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\deltasksBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\delusersBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\disableBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\entryBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\exclamation.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\greyBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\greyHdr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\hdrBg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\hdrMod.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\icon_form.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\ie6.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\20080819-ejtndn7s9bxae6uwfgd5ncdqht.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\Thumbs.db" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\abg-es-100c-000000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\addLink.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\bg_coms.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\bg_menu.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\bg_menu_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btnGoLink.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_comments.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_feedComments.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_feedPost.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\btn_relacionados.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\busy_b.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\cd-case-template.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\chrisbuzelli_owlskeleton-150x150.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\close_grey.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\dvd-case-template.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\dvd-case-template2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\footerWrap_b.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\g.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\hdrBg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_arrowdown.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_bullet.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_bulletmore.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_calendar.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_feedlist.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_folder.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_infoDark.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_logoff.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_pownce.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_profile.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_read.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_search.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\icon_up.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\linedots.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\loginBullet.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\oxidizzy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_facelift.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_jqueryplugins.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_nethersphere-150x150.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\p_swffit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\pause_grey.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\play_grey.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBgFirst.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBgFirst.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBgFirst1.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\postBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\pulldown.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\quote.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\ref_spiga.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\ref_wp.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\searchBg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\sponsorsBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\subHdrBg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\text_link_ads_A_180x60.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\webBg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\images.1\wrapBgbig.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\info.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\itunsTh.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\itunsThSort.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\lightOff.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\lightOn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\login.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuAL.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuAR.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuNL.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\mnuNR.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\navBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newgroupBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newmoduleBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newsensorBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newtaskBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\newuserBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\nextBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\nextBtn1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\postBgFirst.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\quickNavBg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\right.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\saveBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\sortArrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\systemHdr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\validateBtn.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\verificatorHdr.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\webBg.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\style\widgets.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\artifacts\Sindromes_war_exploded\verificator.xhtml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\AlgorithmConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\AlgorithmModel.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\Dao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\DoubleConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\ExperimenterController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\FileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\FilterConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\LocalFileManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MAABmax.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MAMMax.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MAMMaxI.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\MongoDataSetDao.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\S3Manager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\ValidationResult.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\VerificatorController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\out\production\Sindromes\descriptor.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="3903abec-7d93-42a7-9619-cee6ae041033" name="Default" comment="Re">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ComparatorEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/login.xhtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/aws_java_sdk_1_6_5_javadoc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AlgorithmController.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AlgorithmController2.uml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/controller2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagram4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagram5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diagrama3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aws-java-sdk-1.6.5-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/aws-java-sdk-1.6.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-codec-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpclient-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpcore-4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/httpmime-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ExperimenterController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MAMMaxI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MongoDataSetDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/S3Manager.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/PatternRecognition.jar" afterPath="$PROJECT_DIR$/lib/PatternRecognition.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/verificatorHdr.png" afterPath="$PROJECT_DIR$/web/style/verificatorHdr.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmConverter.java" afterPath="$PROJECT_DIR$/src/AlgorithmConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlgorithmModel.java" afterPath="$PROJECT_DIR$/src/AlgorithmModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DoubleConverter.java" afterPath="$PROJECT_DIR$/src/DoubleConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FilterConverter.java" afterPath="$PROJECT_DIR$/src/FilterConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LocalFileManager.java" afterPath="$PROJECT_DIR$/src/LocalFileManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MAABmax.java" afterPath="$PROJECT_DIR$/src/MAABmax.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MAMMax.java" afterPath="$PROJECT_DIR$/src/MAMMax.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sindromes.iml" afterPath="$PROJECT_DIR$/Sindromes.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Sindromes_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Sindromes_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidationResult.java" afterPath="$PROJECT_DIR$/src/ValidationResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/VerificatorController.java" afterPath="$PROJECT_DIR$/src/VerificatorController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/style.css" afterPath="$PROJECT_DIR$/web/style/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/verificator.xhtml" afterPath="$PROJECT_DIR$/web/verificator.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Sindromes.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,17 +67,14 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
-  </component>
   <component name="DatabaseView">
     <flatten value="false" />
     <groupTables value="false" />
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
         <option name="NOTIFY_UNCAUGHT" value="true" />
@@ -266,9 +110,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <breakpoint_rules />
-    <ui_properties />
+    <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -276,52 +119,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MongoDataSetDao.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
+      <file leaf-file-name="AlgorithmModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlgorithmModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="10" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.71875" vertical-offset="2210" max-vertical-offset="2850">
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#AlgorithmModel#0" expanded="false" />
+                <element signature="e#567#568#0" expanded="false" />
+                <element signature="e#585#586#0" expanded="false" />
+                <element signature="e#645#646#0" expanded="false" />
+                <element signature="e#685#686#0" expanded="false" />
+                <element signature="e#1109#1110#0" expanded="false" />
+                <element signature="e#1142#1143#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExperimenterController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
+      <file leaf-file-name="FileManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FileManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="297" column="40" selection-start="8258" selection-end="8258" vertical-scroll-proportion="0.0" vertical-offset="8910" max-vertical-offset="11130">
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experimenter.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="8400" max-vertical-offset="10710">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="S3Manager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="2460">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VerificatorController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="VerificatorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="8940">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1605#1623#0" expanded="true" />
+                <element signature="e#2212#2223#0" expanded="true" />
+                <element signature="e#7341#7342#0" expanded="true" />
+                <element signature="e#7367#7368#0" expanded="true" />
+                <element signature="e#7405#7406#0" expanded="true" />
+                <element signature="e#7435#7436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="verificator.xhtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/verificator.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9583333">
+              <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faces-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.5555553">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -330,28 +246,45 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/ValidationResult.java" />
-        <option value="$PROJECT_DIR$/src/DoubleConverter.java" />
-        <option value="$PROJECT_DIR$/../PatternRecognition/src/org/sg/recognition/classifiers/Euclidean.java" />
-        <option value="$PROJECT_DIR$/../PatternRecognition/src/org/sg/recognition/classifiers/EuclideanMod.java" />
-        <option value="$PROJECT_DIR$/web/style/style.css" />
-        <option value="$PROJECT_DIR$/src/AlgorithmConverter.java" />
-        <option value="$PROJECT_DIR$/src/FileManager.java" />
         <option value="$PROJECT_DIR$/src/LocalFileManager.java" />
-        <option value="$PROJECT_DIR$/web/verificator.xhtml" />
-        <option value="$PROJECT_DIR$/web/experimenter.xhtml" />
-        <option value="$PROJECT_DIR$/src/S3Manager.java" />
-        <option value="$PROJECT_DIR$/src/MongoDataSetDao.java" />
-        <option value="$PROJECT_DIR$/src/VerificatorController.java" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/AlgorithmConverter.java" />
         <option value="$PROJECT_DIR$/src/ExperimenterController.java" />
+        <option value="$PROJECT_DIR$/src/FilterConverter.java" />
+        <option value="$PROJECT_DIR$/src/MAMMaxI.java" />
+        <option value="$PROJECT_DIR$/src/MongoDataSetDao.java" />
+        <option value="$PROJECT_DIR$/src/ValidationResult.java" />
+        <option value="$PROJECT_DIR$/src/AlgorithmModel.java" />
+        <option value="$PROJECT_DIR$/src/ComparatorEntity.java" />
+        <option value="$PROJECT_DIR$/src/MAMMax.java" />
+        <option value="$PROJECT_DIR$/src/MAABmax.java" />
+        <option value="$PROJECT_DIR$/src/DoubleConverter.java" />
+        <option value="$PROJECT_DIR$/web/verificator.xhtml" />
+        <option value="$PROJECT_DIR$/web/style/style.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/login.xhtml" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
+        <option value="$PROJECT_DIR$/src/VerificatorController.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -360,11 +293,19 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="748" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -377,12 +318,60 @@
             <id>Android Lint</id>
           </State>
           <State>
-            <id>Error handling</id>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>XPath</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Abstraction issues</id>
+            <id>Android</id>
           </State>
         </selected-state>
       </profile-state>
@@ -409,7 +398,7 @@
     </ignored-problems>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -421,18 +410,14 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Sindromes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -507,10 +492,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
@@ -532,25 +518,191 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\lib" />
     <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="pages&#9;PSI&#9;JAVA://javax.print.attribute.standard.PagesPerMinute" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\lib" />
       <recent name="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\src" />
       <recent name="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\web" />
-      <recent name="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\web\style" />
-      <recent name="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\web" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
@@ -560,10 +712,34 @@
       <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/aws-java-sdk-1.6.5.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -574,20 +750,10 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -618,167 +784,16 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/experimenter.faces" />
       <deployment>
         <artifact name="Sindromes:war exploded">
@@ -859,28 +874,14 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <configuration useDefault="true">C:\Users\sergio\AppData\Roaming\Subversion</configuration>
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" SSL_PROTOCOLS="all">
+    <configuration>C:\Users\sergio\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3903abec-7d93-42a7-9619-cee6ae041033" name="Default" comment="" />
       <created>1369927252463</created>
+      <option name="number" value="Default" />
       <updated>1369927252463</updated>
       <workItem from="1388952112247" duration="1727000" />
       <workItem from="1388966359878" duration="1663000" />
@@ -897,11 +898,26 @@
       <workItem from="1401850994342" duration="632000" />
       <workItem from="1420999669729" duration="1575000" />
       <workItem from="1421001494740" duration="595000" />
+      <workItem from="1429759726263" duration="3242000" />
+      <workItem from="1430242281418" duration="467000" />
+      <workItem from="1430246007279" duration="1040000" />
+      <workItem from="1430343863098" duration="3032000" />
+      <workItem from="1430422657194" duration="5482000" />
+      <workItem from="1430508348569" duration="966000" />
+      <workItem from="1430515443993" duration="134000" />
+      <workItem from="1430515600554" duration="1861000" />
+      <workItem from="1430587050416" duration="1651000" />
+      <workItem from="1430602880238" duration="5189000" />
+      <workItem from="1430670698996" duration="478000" />
+      <workItem from="1430767061454" duration="101000" />
+      <workItem from="1430775706394" duration="246000" />
+      <workItem from="1430869519774" duration="253000" />
+      <workItem from="1430870162322" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15913000" />
+    <option name="totallyTimeSpent" value="42208000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -924,405 +940,553 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32597622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.60301507" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.60301507" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42134213" sideWeight="0.5621212" order="3" side_tool="false" content_ui="tabs" x="1366" y="-185" width="1685" height="1049" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48073703" sideWeight="0.49772727" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42125" sideWeight="0.5621212" order="3" side_tool="false" content_ui="tabs" x="1366" y="-185" width="1685" height="1049" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48073703" sideWeight="0.49772727" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3525" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2189394" sideWeight="0.23450586" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23792094" sideWeight="0.57865787" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5209003" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" x="279" y="269" width="990" height="376" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2189394" sideWeight="0.23450586" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2375" sideWeight="0.57865787" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5175" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" x="108" y="216" width="990" height="376" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32597622" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.479062" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32453245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35369775" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32349166" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/VerificatorController.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/VerificatorController.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
+      <option name="time" value="6" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="dataSet" language="JAVA" custom="" />
+        <watch expression="resultClassify" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/DoubleConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="5320" max-vertical-offset="6783">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#771#772#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1558">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
+    <entry file="file://$PROJECT_DIR$/src/FilterConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5662">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="e#1157#1158#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
+    <entry file="file://$PROJECT_DIR$/src/MAMMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="42" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1805">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="77" selection-start-line="138" selection-start-column="77" selection-end-line="138" selection-end-column="77" />
+          <folding>
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#3518#3519#0" expanded="false" />
+            <element signature="e#3553#3554#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#3630#3631#0" expanded="false" />
+            <element signature="e#4673#4674#0" expanded="false" />
+            <element signature="e#4734#4735#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
+    <entry file="file://$PROJECT_DIR$/src/ValidationResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="40" selection-start="8258" selection-end="8258" vertical-scroll-proportion="0.0" vertical-offset="5643" max-vertical-offset="7049">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="5320" max-vertical-offset="6783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="1805">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="40" selection-start="8258" selection-end="8258" vertical-scroll-proportion="0.0" vertical-offset="5643" max-vertical-offset="7049">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="5320" max-vertical-offset="6783">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1558">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5662">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="275" column="26" selection-start-line="275" selection-start-column="26" selection-end-line="275" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1605#1623#0" expanded="true" />
+            <element signature="e#2212#2223#0" expanded="true" />
+            <element signature="e#7341#7342#0" expanded="true" />
+            <element signature="e#7367#7368#0" expanded="true" />
+            <element signature="e#7405#7406#0" expanded="true" />
+            <element signature="e#7435#7436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/verificator.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="1976">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
+    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="52" selection-start="6461" selection-end="6461" vertical-scroll-proportion="0.0" vertical-offset="4161" max-vertical-offset="5244">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/FilterConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="5320" max-vertical-offset="6783">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="e#1157#1158#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
+    <entry file="file://$PROJECT_DIR$/src/LocalFileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="779" max-vertical-offset="1558">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MAMMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#3518#3519#0" expanded="false" />
+            <element signature="e#3553#3554#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#3630#3631#0" expanded="false" />
+            <element signature="e#4673#4674#0" expanded="false" />
+            <element signature="e#4734#4735#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="5662">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="26" selection-start="4518" selection-end="4519" vertical-scroll-proportion="0.0" vertical-offset="2184" max-vertical-offset="3864">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="3360" max-vertical-offset="4998">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1148">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="4172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="26" selection-start="4518" selection-end="4519" vertical-scroll-proportion="0.0" vertical-offset="2184" max-vertical-offset="3864">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1605#1623#0" expanded="true" />
+            <element signature="e#2212#2223#0" expanded="true" />
+            <element signature="e#7341#7342#0" expanded="true" />
+            <element signature="e#7367#7368#0" expanded="true" />
+            <element signature="e#7405#7406#0" expanded="true" />
+            <element signature="e#7435#7436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="3360" max-vertical-offset="4998">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="574" max-vertical-offset="1148">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="4172">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
+    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="78" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="5194">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="58" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="4172">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
+    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="1456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="71" selection-start="1945" selection-end="1945" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="3864">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="686" max-vertical-offset="4172">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
+    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="68" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="75" selection-start="1656" selection-end="1656" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="76" selection-start="1214" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="280" column="104" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="43" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/primefaces-3.4.1.jar!/META-INF/primefaces-p.taglib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325688">
+          <caret line="9198" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/descriptor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/about.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/style/verificatorHdr.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LocalFileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MAABmax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.8294573">
+          <caret line="148" column="18" selection-start-line="148" selection-start-column="18" selection-end-line="148" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComparatorEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34324944">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/PatternRecognition.jar!/org/underserver/jbigmining/DataSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2184466">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlgorithmModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#AlgorithmModel#0" expanded="false" />
+            <element signature="e#567#568#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+            <element signature="e#1142#1143#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoubleConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#771#772#0" expanded="false" />
+            <element signature="e#804#805#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FilterConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
+          <folding>
+            <element signature="e#1157#1158#0" expanded="false" />
+            <element signature="e#1198#1199#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MAMMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="77" selection-start-line="138" selection-start-column="77" selection-end-line="138" selection-end-column="77" />
+          <folding>
+            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#3518#3519#0" expanded="false" />
+            <element signature="e#3553#3554#0" expanded="false" />
+            <element signature="e#3595#3596#0" expanded="false" />
+            <element signature="e#3630#3631#0" expanded="false" />
+            <element signature="e#4673#4674#0" expanded="false" />
+            <element signature="e#4734#4735#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="330" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="351" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/javax/print/attribute/standard/PagesPerMinute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ValidationResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="731" column="13" selection-start="14462" selection-end="14462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ValidationResult.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="15" selection-start="974" selection-end="974" vertical-scroll-proportion="2.0305555" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlgorithmConverter.java">
+    <entry file="file://$PROJECT_DIR$/web/login.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="56" selection-start="866" selection-end="866" vertical-scroll-proportion="0.30734465" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/primefaces-3.4.1.jar!/META-INF/primefaces-p.taglib.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9198" column="4" selection-start="335421" selection-end="335421" vertical-scroll-proportion="0.3325688" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LocalFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="40" selection-start="1400" selection-end="1400" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/verificator.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="81" selection-start="6759" selection-end="6828" vertical-scroll-proportion="0.036876354" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="66" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5555553">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.jsf.yfilesGraph.editor.FacesNavigationFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/VerificatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="43" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1605#1623#0" expanded="true" />
+            <element signature="e#2212#2223#0" expanded="true" />
+            <element signature="e#7341#7342#0" expanded="true" />
+            <element signature="e#7367#7368#0" expanded="true" />
+            <element signature="e#7405#7406#0" expanded="true" />
+            <element signature="e#7435#7436#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/S3Manager.java">
+    <entry file="file://$PROJECT_DIR$/web/verificator.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="55" selection-start="1206" selection-end="1206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="966">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/experimenter.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="280" column="104" selection-start="21514" selection-end="21514" vertical-scroll-proportion="0.0" vertical-offset="3360" max-vertical-offset="4998">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExperimenterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="297" column="40" selection-start="8258" selection-end="8258" vertical-scroll-proportion="0.0" vertical-offset="4161" max-vertical-offset="5244">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoDataSetDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="10" selection-start="2818" selection-end="2818" vertical-scroll-proportion="0.71875" vertical-offset="2210" max-vertical-offset="2850">
+        <state vertical-scroll-proportion="0.9583333">
+          <caret line="177" column="18" selection-start-line="177" selection-start-column="18" selection-end-line="177" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1370,7 +1534,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1387,7 +1551,6 @@
             <option name="proportions">
               <list>
                 <option value="0.37572256" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1407,7 +1570,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jsf/primefaces-3.4.1</last-edited>
+          <last-edited>delta-1.0.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1420,4 +1583,3 @@
     </states>
   </component>
 </project>
-

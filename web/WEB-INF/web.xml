@@ -31,4 +31,7 @@
         <param-name>primefaces.THEME</param-name>
         <param-value>delta</param-value>
     </context-param>
+    <welcome-file-list>
+        <welcome-file>/index.faces</welcome-file>
+    </welcome-file-list>
 </web-app>

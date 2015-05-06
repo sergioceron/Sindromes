@@ -1,7 +1,8 @@
-import org.sg.recognition.Algorithm;
-import org.sg.recognition.classifiers.Euclidean;
-import org.sg.recognition.classifiers.kNN;
-import org.sg.recognition.classifiers.mNN;
+
+import org.underserver.jbigmining.Algorithm;
+import org.underserver.jbigmining.classifiers.Euclidean;
+import org.underserver.jbigmining.classifiers.kNN;
+import org.underserver.jbigmining.classifiers.mNN;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.component.UIComponent;

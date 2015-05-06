@@ -1,3 +1,10 @@
+import org.primefaces.model.SelectableDataModel;
+import org.underserver.jbigmining.Algorithm;
+import org.underserver.jbigmining.AlgorithmInformation;
+
+import javax.faces.model.ListDataModel;
+import java.util.List;
+
 /**
  * Project Name: Sindromes
  * Project Url: http://www.dotrow.com/projects/java/jcase
@@ -6,11 +13,6 @@
  * Date: 24/10/13 10:19 PM
  * Desc:
  */
-import java.util.List;
-import javax.faces.model.ListDataModel;
-import org.primefaces.model.SelectableDataModel;
-import org.sg.recognition.Algorithm;
-import org.sg.recognition.AlgorithmInformation;
 
 public class AlgorithmModel extends ListDataModel<Algorithm> implements SelectableDataModel<Algorithm> {
 

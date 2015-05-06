@@ -1,7 +1,8 @@
-import org.sg.recognition.Algorithm;
-import org.sg.recognition.AlgorithmInformation;
-import org.sg.recognition.Pattern;
-import org.sg.recognition.utils.Matrix;
+
+import org.underserver.jbigmining.Algorithm;
+import org.underserver.jbigmining.AlgorithmInformation;
+import org.underserver.jbigmining.Pattern;
+import org.underserver.jbigmining.utils.Matrix;
 
 import java.util.*;
 
@@ -27,7 +28,7 @@ public class MAMMax extends Algorithm {
 
 	@Override
     public void train() {
-        List<Pattern> train = getTrainPatterns();
+        List<Pattern> train = getTrainSet();
 
         int n = train.get(0).size();
         int m = train.get(0).size();
@@ -36,9 +37,9 @@ public class MAMMax extends Algorithm {
         // Entrenamiento
         M = Matrix.fill(m, n, Double.MAX_VALUE);
         for ( int t = 0; t < p; t++ ) {
-            Pattern<Double> pattern  = train.get(t);
-            Double[] xM = pattern.getFeaturesAsVector();
-            Double[] yM = pattern.getFeaturesAsVector();
+            Pattern pattern  = train.get(t);
+            Double[] xM = pattern.toDoubleVector();
+            Double[] yM = pattern.toDoubleVector();
             Double[][] zM = Y(xM, yM);
             M = Matrix.min(zM, M);
         }
@@ -122,9 +123,9 @@ public class MAMMax extends Algorithm {
         return round(x + y);
     }
 
-    public Pattern<Double> closestPattern(List<Pattern> lookupTable, Pattern<Double> other){
+    public Pattern closestPattern(List<Pattern> lookupTable, Pattern other){
         double distmin = Double.MAX_VALUE;
-        Pattern<Double> closest = null;
+        Pattern closest = null;
         /*for ( Pattern<Double> pattern : lookupTable ) {
             double dist = Matrix.distance(pattern.getFeaturesAsVector(), other.getFeaturesAsVector());
             if ( dist < distmin ) {
@@ -135,14 +136,14 @@ public class MAMMax extends Algorithm {
         return closest;
     }
 
-	public List<Pattern<Double>> closestPattern(List<Pattern> lookupTable, Pattern<Double> other, int kNearest){
+	public List<Pattern> closestPattern(List<Pattern> lookupTable, Pattern other, int kNearest){
 		double distmin = Double.MAX_VALUE;
-		Map<Double, Pattern<Double>> closests = new HashMap<Double, Pattern<Double>>();
+		Map<Double, Pattern> closests = new HashMap<Double, Pattern>();
 		/*for ( Pattern<Double> pattern : lookupTable ) {
 			double dist = Matrix.distance(pattern.getFeaturesAsVector(), other.getFeaturesAsVector());
 			closests.put(dist, pattern);
 		}*/
-		Map<Double, Pattern<Double>> sortedAsc = new TreeMap<Double, Pattern<Double>>(closests);
+		Map<Double, Pattern> sortedAsc = new TreeMap<Double, Pattern>(closests);
 
 		return (new ArrayList(sortedAsc.values())).subList(0, kNearest);
 	}

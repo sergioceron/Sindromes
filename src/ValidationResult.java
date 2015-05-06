@@ -1,4 +1,5 @@
-import org.sg.recognition.Algorithm;
+
+import org.underserver.jbigmining.Algorithm;
 
 import java.util.ArrayList;
 import java.util.List;

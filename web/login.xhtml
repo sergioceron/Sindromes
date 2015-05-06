@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>index.xhtml
+        SWIVS - Sistema Web Interactivo para la Verificación de Síndromes
+    </title>
+
+    <link rel="stylesheet" href="./style/style.css" type="text/css" media="screen"/>
+
+    <!--[if IE]>
+    <link rel="stylesheet" href="./style/ie.css" type="text/css" media="all" />
+    <![endif]-->
+    <!--[if lt IE 7]>
+    <link rel="stylesheet" href="./style/ie6.css" type="text/css" media="all" />
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <script src="../script/IE8.js" type="text/javascript"></script>
+    <![endif]-->
+
+
+</h:head>
+<h:body>
+    <a name="top" id="top"></a>
+
+    <h:form prependId="false" id="form2">
+        <p:outputPanel id="configsmNN">
+            <p:dialog id="mNN" header="System Access" widgetVar="mNNdlg" modal="true" height="50"
+                      resizable="false" closable="false" visible="true">
+                <p:outputPanel styleClass="p">
+                    <p:inputText value="#{verificatorController.key}" styleClass="field" style="width: 300px" />
+                </p:outputPanel>
+
+                <f:facet name="footer">
+                    <div align="center"><p:commandButton value="Enter" action="#{verificatorController.login}"/></div>
+                </f:facet>
+            </p:dialog>
+        </p:outputPanel>
+    </h:form>
+
+    <p:dialog widgetVar="about" modal="true" height="310" resizable="false" visible="false">
+        <p:graphicImage url="about.png" />
+    </p:dialog>
+
+    <p:dialog modal="true" widgetVar="statusDialog" resizable="false" header="Validando Algoritmos"
+              draggable="false" closable="false">
+        <p:graphicImage value="/ajaxloadingbar.gif" />
+    </p:dialog>
+
+</h:body>
+</html>

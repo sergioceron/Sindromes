@@ -1,7 +1,8 @@
-import org.sg.recognition.Algorithm;
-import org.sg.recognition.AlgorithmInformation;
-import org.sg.recognition.Pattern;
-import org.sg.recognition.utils.Matrix;
+
+import org.underserver.jbigmining.Algorithm;
+import org.underserver.jbigmining.AlgorithmInformation;
+import org.underserver.jbigmining.Pattern;
+import org.underserver.jbigmining.utils.Matrix;
 
 import java.util.*;
 
@@ -145,9 +146,9 @@ public class MAABmax extends Algorithm {
         return z;
     }
 
-    public Pattern<Integer> closestPattern(List<Pattern> lookupTable, Pattern<Integer> other){
+    public Pattern closestPattern(List<Pattern> lookupTable, Pattern other){
         double distmin = Double.MAX_VALUE;
-        Pattern<Integer> closest = null;
+        Pattern closest = null;
         /*for ( Pattern<Integer> pattern : lookupTable ) {
             double dist = Matrix.distance(pattern.getFeaturesAsVector(), other.getFeaturesAsVector());
             if ( dist < distmin ) {
@@ -158,14 +159,14 @@ public class MAABmax extends Algorithm {
         return closest;
     }
 
-	public List<Pattern<Integer>> closestPattern(List<Pattern> lookupTable, Pattern<Integer> other, int kNearest){
+	public List<Pattern> closestPattern(List<Pattern> lookupTable, Pattern other, int kNearest){
 		double distmin = Double.MAX_VALUE;
-		Map<Double, Pattern<Integer>> closests = new HashMap<Double, Pattern<Integer>>();
+		Map<Double, Pattern> closests = new HashMap<Double, Pattern>();
 		/*for ( Pattern<Integer> pattern : lookupTable ) {
 			double dist = Matrix.distance(pattern.getFeaturesAsVector(), other.getFeaturesAsVector());
 			closests.put(dist, pattern);
 		}*/
-		Map<Double, Pattern<Integer>> sortedAsc = new TreeMap<Double, Pattern<Integer>>(closests);
+		Map<Double, Pattern> sortedAsc = new TreeMap<Double, Pattern>(closests);
 
 		return (new ArrayList(sortedAsc.values())).subList(0, kNearest);
 	}

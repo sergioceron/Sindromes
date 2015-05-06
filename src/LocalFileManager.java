@@ -17,12 +17,18 @@ import java.util.List;
  */
 public class LocalFileManager implements FileManager {
 	private String bucket = ".";
+	private File folder;
 
 	public LocalFileManager() {
 	}
 
 	public LocalFileManager( String bucket ) {
 		this.bucket = bucket;
+		folder = new File( bucket );
+		if( !folder.exists() ) {
+			System.out.printf( "Folder %s doesn't exists, creating %s\n", bucket, folder.getAbsolutePath()  );
+			folder.mkdir();
+		}
 	}
 
 	public void save(UploadedFile file){

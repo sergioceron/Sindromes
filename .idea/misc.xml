@@ -8,8 +8,7 @@
     <option name="OUTPUT_DIRECTORY" value="C:\Users\sergio\Proyectos\Java\IntelliJ\Sindromes\exportToHTML" />
   </component>
   <component name="IdProvider" IDEtalkID="713A837225B4ED1DE2B1FE1D3DF3AA71" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
-
