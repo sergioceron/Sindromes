@@ -7,12 +7,13 @@
  */
 
 import org.primefaces.event.FileUploadEvent;
-import org.primefaces.model.DualListModel;
+import org.primefaces.event.SelectEvent;
+import org.primefaces.event.TabChangeEvent;
 import org.primefaces.model.UploadedFile;
 import org.underserver.jbigmining.*;
-import org.underserver.jbigmining.classifiers.*;
+import org.underserver.jbigmining.classifiers.Gamma;
+import org.underserver.jbigmining.classifiers.GammaDummy;
 import org.underserver.jbigmining.exceptions.ParserException;
-import org.underserver.jbigmining.filters.*;
 import org.underserver.jbigmining.parsers.ARFFParser;
 import org.underserver.jbigmining.parsers.SmartParser;
 
@@ -21,20 +22,21 @@ import javax.faces.bean.SessionScoped;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @ManagedBean
 @SessionScoped
 public class VerificatorController {
+    private FileManager fileManagerPreloaded = new LocalFileManager("./preloaded");
     private FileManager fileManagerTrain = new LocalFileManager("./train");
     private FileManager fileManagerTest = new LocalFileManager("./test");
 
     private AlgorithmModel algorithmModel;
-    private DualListModel<Filter> filterModel;
 
     private Algorithm selectedAlgorithm;
     private Algorithm configureAlgorithm;
-    private List<Filter> selectedFilters;
 
     private File trainFile;
     private File testFile;
@@ -55,27 +57,41 @@ public class VerificatorController {
 
     private DataSet dataSet;
 
+    private String selectedBank;
+
+    private Map<String, DualSet> selectedSet = new HashMap<String, DualSet>();
+
+    private List<PreloadedSet> preloadedSets;
+
     public VerificatorController() {
-
-        List<Filter> filters = new ArrayList<Filter>();
-        filters.add(new NormalizeFilter());
-        filters.add(new IntegerFilter());
-        filters.add(new BinaryFilter());
-        filters.add(new BinaryHotFilter());
-        filters.add(new GrayFilter());
-
-        selectedFilters = new ArrayList<Filter>();
-        filterModel = new DualListModel<Filter>(filters, selectedFilters);
-
+        preloadedSets = new ArrayList<PreloadedSet>();
+        File directory = new File("./preloaded");
+        for (File file : directory.listFiles()) {
+            if( file.isDirectory() ) {
+                File folder = new File(file.getPath() + "/Split Data/");
+                PreloadedSet preloadedSet = new PreloadedSet(file.getName());
+                List<DualSet> sets = new ArrayList<DualSet>();
+                for (String s : folder.list()) {
+                    if(s.endsWith(".arff")) {
+                        if (s.startsWith("Training")) {
+                            String suffix = s.substring(s.indexOf("_"), s.indexOf("."));
+                            sets.add(new DualSet(file.getName(), s, "Testing" + suffix + ".arff"));
+                        }
+                    }
+                }
+                preloadedSet.setFiles(sets);
+                preloadedSets.add(preloadedSet);
+            }
+        }
     }
 
-    public String login(){
+    public String login() {
         List<Algorithm> algorithms = new ArrayList<Algorithm>();
-        if( key.equals("mdk2") ){
+        if (key.equals("mdk2")) {
             algorithms.add(new Gamma());
             algorithmModel = new AlgorithmModel(new ArrayList<Algorithm>(algorithms));
             return "success";
-        } else if( key.equals("v3c1") ){
+        } else if (key.equals("v3c1")) {
             algorithms.add(new GammaDummy());
             algorithmModel = new AlgorithmModel(new ArrayList<Algorithm>(algorithms));
             return "success";
@@ -107,17 +123,25 @@ public class VerificatorController {
         fileManagerTest.save(uploadedFile);
     }
 
+
+    public void proccess(){
+        train();
+        classify();
+    }
+
     public void train() {
         try {
-            trainFile = fileManagerTrain.read(trainName);
+            if( step == 1 ) {
+                trainFile = fileManagerTrain.read(trainName);
+            } else if ( step == 2 ){
+                trainFile = fileManagerPreloaded.read(selectedSet.get(selectedBank).getDataSet() + "/Split Data/" + selectedSet.get(selectedBank).getTraining());
+            }
 
             Parser trainParser = new SmartParser(trainFile);
             dataSet = trainParser.parse();
 
             selectedAlgorithm.setTrainSet(dataSet);
             selectedAlgorithm.train();
-
-            step = 2;
         } catch (ParserException e) {
             e.printStackTrace();
         }
@@ -125,7 +149,11 @@ public class VerificatorController {
 
     public void classify() {
         try {
-            testFile = fileManagerTest.read(testName);
+            if( step == 1 ) {
+                testFile = fileManagerTest.read(testName);
+            } else if ( step == 2 ){
+                testFile = fileManagerPreloaded.read(selectedSet.get(selectedBank).getDataSet() + "/Split Data/" + selectedSet.get(selectedBank).getTesting());
+            }
 
             ARFFParser testParser = new ARFFParser(testFile);
             DataSet testSet = new DataSet(dataSet);
@@ -179,14 +207,6 @@ public class VerificatorController {
 
     public void setConfigureAlgorithm(Algorithm configureAlgorithm) {
         this.configureAlgorithm = configureAlgorithm;
-    }
-
-    public DualListModel<Filter> getFilterModel() {
-        return filterModel;
-    }
-
-    public void setFilterModel(DualListModel<Filter> filterModel) {
-        this.filterModel = filterModel;
     }
 
     public File getTrainFile() {
@@ -281,7 +301,31 @@ public class VerificatorController {
         this.key = key;
     }
 
-    public String[] getAttributes(){
+    public List<PreloadedSet> getPreloadedSets() {
+        return preloadedSets;
+    }
+
+    public void setPreloadedSets(List<PreloadedSet> preloadedSets) {
+        this.preloadedSets = preloadedSets;
+    }
+
+    public Map<String, DualSet> getSelectedSet() {
+        return selectedSet;
+    }
+
+    public void setSelectedSet(Map<String, DualSet> selectedSet) {
+        this.selectedSet = selectedSet;
+    }
+
+    public void onTabChange(TabChangeEvent event) {
+        selectedBank = ((PreloadedSet)event.getData()).getName();
+    }
+
+    public void onRowSelect(SelectEvent event) {
+        DualSet dset = (DualSet) event.getObject();
+        selectedSet.put(selectedBank, dset);
+    }
+    public String[] getAttributes() {
         List<Attribute> attributeList = dataSet.getAttributes();
         String[] attributes = new String[attributeList.size()];
         for (int i = 0; i < attributeList.size(); i++) {

@@ -38,7 +38,7 @@
 
                         <div id="quicknav">
                             <div class="navR">
-                                <p:commandLink actionListener="#{verificatorController.next}" rel="prev" rendered="#{verificatorController.step lt 3}" update=":form1"> </p:commandLink>
+                                <p:commandLink actionListener="#{verificatorController.next}" rel="prev" rendered="#{verificatorController.step lt 4}" update=":form1"> </p:commandLink>
                             </div>
                             <div class="navL">
                                 <p:commandLink actionListener="#{verificatorController.back}" rel="prev" rendered="#{verificatorController.step gt 0}" update=":form1"> </p:commandLink>
@@ -51,10 +51,9 @@
 
                         <p:outputPanel id="submenu" deferred="true">
                                 <ul class="nav">
-                                    <li class="page_item #{verificatorController.step eq 0 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(0)}">Algorithm</p:commandLink></li>
-                                    <li class="page_item #{verificatorController.step eq 1 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(1)}">Training</p:commandLink></li>
-                                    <li class="page_item #{verificatorController.step eq 2 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(2)}">Classification</p:commandLink></li>
-                                    <li class="page_item #{verificatorController.step eq 3 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.step(3)}">Results</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 0 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.setStep(0)}">Algorithm</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 1 or verificatorController.step eq 2 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.setStep(1)}">DataSet</p:commandLink></li>
+                                    <li class="page_item #{verificatorController.step eq 3 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.setStep(3)}">Results</p:commandLink></li>
                                 </ul>
                         </p:outputPanel>
                         <div class="entry">
@@ -97,32 +96,59 @@
 
                                     </div>
                                 </p:outputPanel>
-                                <p:outputPanel id="view2" deferred="true" rendered="#{verificatorController.step eq 1}">
-                                    <span class="instructions">Select the training Dataset:</span>
-                                    <p:outputPanel styleClass="p">
-                                        <small>(requerido</small>
-                                        <label>Dataset: </label>
-                                        <p:selectOneMenu value="#{verificatorController.trainName}" styleClass="field" id="files" style="width: 300px">
-                                            <f:selectItems value="#{verificatorController.fileManagerTrain.list()}" var="trainName"
-                                                           itemLabel="#{trainName}" itemValue="#{trainName}"/>
-                                        </p:selectOneMenu>
-                                    </p:outputPanel>
+                                <p:outputPanel id="view1a" deferred="true" rendered="#{verificatorController.step eq 1}">
+                                    <span class="instructions">Select one of these pre-loaded Dataset in order to verify the performance.<br/><br/>Or you can upload your own dataset in ARFF format. <p:commandButton actionListener="#{verificatorController.setStep(2)}" value="Upload Dataset" update=":form1"/></span>
+                                    <span class="warning">The following Datatset were obtained from UCI repository and folded for cross validation.</span>
+                                    <div>
+                                        <p:accordionPanel value="#{verificatorController.preloadedSets}" var="preloadedSet" activeIndex="null">
+                                            <p:ajax event="tabChange" process="@this" listener="#{verificatorController.onTabChange}" />
+                                            <p:tab title="#{preloadedSet.name}">
+                                                <p:dataTable value="#{preloadedSet.files}" var="file"
+                                                             selection="#{verificatorController.selectedSet}"
+                                                        rowKey="#{file.dataSet}#{file.training}">
+                                                    <p:ajax event="rowSelect" process="@this" listener="#{verificatorController.onRowSelect}" />
+                                                    <p:column selectionMode="single" style="width:2%" />
+                                                    <p:column headerText="Training Set">
+                                                        #{file.training}
+                                                    </p:column>
+                                                    <p:column headerText="Testing Set">
+                                                        #{file.testing}
+                                                    </p:column>
+                                                    <p:column headerText="Original URL">
+                                                        #{file.url}
+                                                    </p:column>
+                                                </p:dataTable>
+                                            </p:tab>
+                                        </p:accordionPanel>
+                                    </div>
+                                </p:outputPanel>
+                                <p:outputPanel id="view2" deferred="true" rendered="#{verificatorController.step eq 2}">
+                                    <span class="instructions">Upload your training and testing dataset in ARFF format (see arfflink).<br/><br/>Or your can try with the pre-loaded datasets. <p:commandButton actionListener="#{verificatorController.setStep(1)}" value="Pre-loaded Dataset" update=":form1"/></span>
+                                    <span class="warning">When you upload both datasets, the ARFF must have the class in last column and it has to be a nominal value.</span>
                                     <div class="space"></div>
                                     <p:accordionPanel multiple="true">
                                     <p:tab title="Upload new training Dataset">
-                                        <p:fileUpload fileUploadListener="#{verificatorController.uploadFileTrain}" mode="advanced" dragDropSupport="false"
-                                                      multiple="true"
-                                                      uploadLabel="Upload ARFF"
-                                                      cancelLabel="Cancel"
-                                                      label="Select"
-                                                      update=":form1:view2" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(arff)$/" />
+                                        <p:outputPanel styleClass="p">
+                                            <small>(requerido</small>
+                                            <label>Dataset: </label>
+                                            <p:selectOneMenu value="#{verificatorController.trainName}" styleClass="field" id="files" style="width: 300px">
+                                                <f:selectItems value="#{verificatorController.fileManagerTrain.list()}" var="trainName"
+                                                               itemLabel="#{trainName}" itemValue="#{trainName}"/>
+                                            </p:selectOneMenu>
+                                        </p:outputPanel>
+                                        <p:outputPanel styleClass="p">
+                                            <p:fileUpload fileUploadListener="#{verificatorController.uploadFileTrain}" mode="advanced" dragDropSupport="false"
+                                                          multiple="true"
+                                                          uploadLabel="Upload ARFF"
+                                                          cancelLabel="Cancel"
+                                                          label="Select"
+                                                          update=":form1:view2" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(arff)$/" />
+                                        </p:outputPanel>
                                     </p:tab>
                                     </p:accordionPanel>
 
-                                </p:outputPanel>
-                                <p:outputPanel id="view3" deferred="true" rendered="#{verificatorController.step eq 2}">
-
                                     <div class="space"></div>
+
                                     <p:accordionPanel multiple="false">
                                         <p:tab title="Select the testing Dataset" id="i2">
                                             <p:outputPanel styleClass="p">
@@ -142,9 +168,9 @@
                                             </p:outputPanel>
                                         </p:tab>
                                     </p:accordionPanel>
-                                    <div class="space"></div>
+
                                 </p:outputPanel>
-                                <p:outputPanel id="view4" deferred="true" rendered="#{verificatorController.step eq 3}">
+                                <p:outputPanel id="view3" deferred="true" rendered="#{verificatorController.step eq 3}">
                                     <span class="instructions">Results of classification:</span>
                                     <p:dataTable var="resultClassification" value="#{verificatorController.resultClassify}"
                                                  rowStyleClass="white">
@@ -166,10 +192,9 @@
                         </div>
                         <div class="foot">
                             <p:outputPanel id="buttons">
-                                <p:commandLink update=":form1" id="validateBtn" styleClass="classifyBtn" actionListener="#{verificatorController.classify}" rendered="#{verificatorController.step eq 2}" onstart="statusDialog.show();" onsuccess="statusDialog.hide();">Classify</p:commandLink>
-                                <p:commandLink update=":form1" id="trainBtn" styleClass="newtaskBtn" actionListener="#{verificatorController.train}" rendered="#{verificatorController.step eq 1}">Train</p:commandLink>
-                                <p:commandLink update=":form1" id="nextBtn" styleClass="#{verificatorController.step eq 3 ? 'nextBtn' : 'newtaskBtn'}" actionListener="#{verificatorController.next}" rendered="#{verificatorController.step eq 0}">Next</p:commandLink>
-                                <p:commandLink update=":form1" id="backBtn" styleClass="#{verificatorController.step eq 0 ? 'disableBtn' : 'backBtn'}" actionListener="#{verificatorController.back}">Back</p:commandLink>
+                                <p:commandButton update=":form1" id="backBtn" disabled="#{verificatorController.step eq 0}" actionListener="#{verificatorController.back}" value="Back" />
+                                <p:commandButton update=":form1" id="nextBtn" disabled="#{verificatorController.step eq 2}" actionListener="#{verificatorController.next}" rendered="#{verificatorController.step eq 0}" value="Next" styleClass="ui-button-success"/>
+                                <p:commandButton update=":form1" process="@all" id="validateBtn" value="Classify" actionListener="#{verificatorController.proccess}" rendered="#{verificatorController.step eq 2 or verificatorController.step eq 1}" onstart="statusDialog.show();" onsuccess="statusDialog.hide();" />
                             </p:outputPanel>
                         </div>
                     </div>

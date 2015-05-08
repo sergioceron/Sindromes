@@ -352,8 +352,8 @@ a#login:hover{background-position:0 -25px;}
   background-position: 0% bottom;
 }
 .fix div.left div.entry{
-    min-height: 400px;
-    max-height: 400px;
+    min-height: 500px;
+    max-height: 500px;
     overflow: auto;
 	padding:10px 10px 0px 10px;
 	margin:0;
@@ -718,7 +718,10 @@ a.delusersBtn{ background:url(delusersBtn.png); }
 a.delgroupsBtn{ background:url(delgroupsBtn.png); }
 a.delmodulesBtn{ background:url(delmodulesBtn.png); }
 a.delsensorsBtn{ background:url(delsensorsBtn.png); }
-
+#buttons{
+	display: block;
+	text-align: right;
+}
 /*****************************************
 
                  FORMULARIOs
@@ -869,11 +872,25 @@ a.delsensorsBtn{ background:url(delsensorsBtn.png); }
 }
 
 .instructions {
-    color: #888;
+	color: #3a87ad;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
     font-size: 13px;
     display: block;
-    height: 20px;
-    padding: 5px 0px;
+    min-height: 20px;
+    padding: 10px;
+	margin: 10px;
+}
+
+.warning {
+	color: #c09853;
+	background-color: #fcf8e3;
+	border-color: #fbeed5;
+    font-size: 13px;
+    display: block;
+    min-height: 20px;
+    padding: 10px;
+	margin: 10px;
 }
 /*****************************************
 
