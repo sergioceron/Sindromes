@@ -47,19 +47,17 @@ public class VerificatorController {
     private String trainName;
     private String testName;
 
-    private int step = 0;
+    private int step = -1;
     private String key;
+    private boolean preloaded = true;
+    private double performance = 0d;
 
     private List<ComparatorEntity> resultClassify = new ArrayList<ComparatorEntity>();
     private List<ValidationResult> resultValidation = new ArrayList<ValidationResult>();
 
-    private Pattern classifyPattern;
-
     private DataSet dataSet;
 
-    private String selectedBank;
-
-    private Map<String, DualSet> selectedSet = new HashMap<String, DualSet>();
+    private DualSet selectedSet;
 
     private List<PreloadedSet> preloadedSets;
 
@@ -85,18 +83,19 @@ public class VerificatorController {
         }
     }
 
-    public String login() {
+    public void login() {
         List<Algorithm> algorithms = new ArrayList<Algorithm>();
         if (key.equals("mdk2")) {
             algorithms.add(new Gamma());
             algorithmModel = new AlgorithmModel(new ArrayList<Algorithm>(algorithms));
-            return "success";
+            step = 0;
         } else if (key.equals("v3c1")) {
             algorithms.add(new GammaDummy());
             algorithmModel = new AlgorithmModel(new ArrayList<Algorithm>(algorithms));
-            return "success";
+            step = 0;
+        } else {
+            step = -1;
         }
-        return "error";
     }
 
     public void step(int id) {
@@ -131,10 +130,10 @@ public class VerificatorController {
 
     public void train() {
         try {
-            if( step == 1 ) {
+            if( step == 2 ) {
                 trainFile = fileManagerTrain.read(trainName);
-            } else if ( step == 2 ){
-                trainFile = fileManagerPreloaded.read(selectedSet.get(selectedBank).getDataSet() + "/Split Data/" + selectedSet.get(selectedBank).getTraining());
+            } else if ( step == 1 ){
+                trainFile = fileManagerPreloaded.read(selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTraining());
             }
 
             Parser trainParser = new SmartParser(trainFile);
@@ -149,10 +148,12 @@ public class VerificatorController {
 
     public void classify() {
         try {
-            if( step == 1 ) {
+            if( step == 2 ) {
                 testFile = fileManagerTest.read(testName);
-            } else if ( step == 2 ){
-                testFile = fileManagerPreloaded.read(selectedSet.get(selectedBank).getDataSet() + "/Split Data/" + selectedSet.get(selectedBank).getTesting());
+                preloaded = false;
+            } else if ( step == 1 ){
+                testFile = fileManagerPreloaded.read(selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTesting());
+                preloaded = true;
             }
 
             ARFFParser testParser = new ARFFParser(testFile);
@@ -162,11 +163,12 @@ public class VerificatorController {
             resultClassify.clear();
             for (Pattern p : testSet) {
                 int clazz = ((Classifier) (selectedAlgorithm)).classify(p);
-                int real = -1;
+                int real = preloaded ? p.getClassIndex() : -1;
                 p.setClassIndex(clazz);
                 resultClassify.add(new ComparatorEntity(p, real, p.getClassIndex() == real));
+                performance += p.getClassIndex() == real ? 1 : 0;
             }
-
+            performance /= (double) testSet.size();
             step = 3;
         } catch (IOException e) {
             e.printStackTrace();
@@ -281,14 +283,6 @@ public class VerificatorController {
         this.step = step;
     }
 
-    public Pattern getClassifyPattern() {
-        return classifyPattern;
-    }
-
-    public void setClassifyPattern(Pattern classifyPattern) {
-        this.classifyPattern = classifyPattern;
-    }
-
     public DataSet getDataSet() {
         return dataSet;
     }
@@ -309,22 +303,35 @@ public class VerificatorController {
         this.preloadedSets = preloadedSets;
     }
 
-    public Map<String, DualSet> getSelectedSet() {
+    public DualSet getSelectedSet() {
         return selectedSet;
     }
 
-    public void setSelectedSet(Map<String, DualSet> selectedSet) {
-        this.selectedSet = selectedSet;
+    public boolean isPreloaded() {
+        return preloaded;
     }
 
-    public void onTabChange(TabChangeEvent event) {
-        selectedBank = ((PreloadedSet)event.getData()).getName();
+    public double getPerformance() {
+        return performance;
+    }
+
+    public void setPerformance(double performance) {
+        this.performance = performance;
+    }
+
+    public void setPreloaded(boolean preloaded) {
+        this.preloaded = preloaded;
+    }
+
+    public void setSelectedSet(DualSet selectedSet) {
+        //this.selectedSet = selectedSet;
     }
 
     public void onRowSelect(SelectEvent event) {
         DualSet dset = (DualSet) event.getObject();
-        selectedSet.put(selectedBank, dset);
+        this.selectedSet  =  dset;
     }
+
     public String[] getAttributes() {
         List<Attribute> attributeList = dataSet.getAttributes();
         String[] attributes = new String[attributeList.size()];

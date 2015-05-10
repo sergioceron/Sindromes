@@ -722,6 +722,14 @@ a.delsensorsBtn{ background:url(delsensorsBtn.png); }
 	display: block;
 	text-align: right;
 }
+.blur{
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);
+
+}
 /*****************************************
 
                  FORMULARIOs

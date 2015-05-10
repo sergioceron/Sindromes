@@ -31,7 +31,21 @@
     <div id="container" class="main">
 
         <div id="wrapper">
-            <div id="content">
+            <p:outputPanel id="login" deferred="true" rendered="#{verificatorController.step eq -1}">
+                <p:outputPanel>
+                    <p:dialog header="System Access" widgetVar="logindlg" modal="true" height="50"
+                              resizable="false" closable="false" visible="true">
+                        <p:outputPanel styleClass="p">
+                            <p:inputText value="#{verificatorController.key}" styleClass="field" style="width: 300px" />
+                        </p:outputPanel>
+
+                        <f:facet name="footer">
+                            <div align="center"><p:commandButton value="Enter" action="#{verificatorController.login}" update=":form1" oncomplete="logindlg.hide();"/></div>
+                        </f:facet>
+                    </p:dialog>
+                </p:outputPanel>
+            </p:outputPanel>
+            <div id="content" class="#{verificatorController.step lt 0 ? 'blur' : ''}">
                 <div class="fix">
 
                     <div class="left">
@@ -49,7 +63,7 @@
                             <a href="#" class="verificator">Verificator</a>
                         </h2>
 
-                        <p:outputPanel id="submenu" deferred="true">
+                        <p:outputPanel id="submenu" deferred="true" rendered="#{verificatorController.step >= 0}">
                                 <ul class="nav">
                                     <li class="page_item #{verificatorController.step eq 0 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.setStep(0)}">Algorithm</p:commandLink></li>
                                     <li class="page_item #{verificatorController.step eq 1 or verificatorController.step eq 2 ? 'current_page_item' : ' '}"><p:commandLink update=":form1" actionListener="#{verificatorController.setStep(1)}">DataSet</p:commandLink></li>
@@ -100,13 +114,12 @@
                                     <span class="instructions">Select one of these pre-loaded Dataset in order to verify the performance.<br/><br/>Or you can upload your own dataset in ARFF format. <p:commandButton actionListener="#{verificatorController.setStep(2)}" value="Upload Dataset" update=":form1"/></span>
                                     <span class="warning">The following Datatset were obtained from UCI repository and folded for cross validation.</span>
                                     <div>
-                                        <p:accordionPanel value="#{verificatorController.preloadedSets}" var="preloadedSet" activeIndex="null">
-                                            <p:ajax event="tabChange" process="@this" listener="#{verificatorController.onTabChange}" />
+                                        <p:accordionPanel value="#{verificatorController.preloadedSets}" var="preloadedSet" dynamic="true" cache="false" activeIndex="null">
                                             <p:tab title="#{preloadedSet.name}">
                                                 <p:dataTable value="#{preloadedSet.files}" var="file"
                                                              selection="#{verificatorController.selectedSet}"
-                                                        rowKey="#{file.dataSet}#{file.training}">
-                                                    <p:ajax event="rowSelect" process="@this" listener="#{verificatorController.onRowSelect}" />
+                                                        rowKey="#{file.id}">
+                                                    <p:ajax event="rowSelectRadio" listener="#{verificatorController.onRowSelect}" />
                                                     <p:column selectionMode="single" style="width:2%" />
                                                     <p:column headerText="Training Set">
                                                         #{file.training}
@@ -127,24 +140,24 @@
                                     <span class="warning">When you upload both datasets, the ARFF must have the class in last column and it has to be a nominal value.</span>
                                     <div class="space"></div>
                                     <p:accordionPanel multiple="true">
-                                    <p:tab title="Upload new training Dataset">
-                                        <p:outputPanel styleClass="p">
-                                            <small>(requerido</small>
-                                            <label>Dataset: </label>
-                                            <p:selectOneMenu value="#{verificatorController.trainName}" styleClass="field" id="files" style="width: 300px">
-                                                <f:selectItems value="#{verificatorController.fileManagerTrain.list()}" var="trainName"
-                                                               itemLabel="#{trainName}" itemValue="#{trainName}"/>
-                                            </p:selectOneMenu>
-                                        </p:outputPanel>
-                                        <p:outputPanel styleClass="p">
-                                            <p:fileUpload fileUploadListener="#{verificatorController.uploadFileTrain}" mode="advanced" dragDropSupport="false"
-                                                          multiple="true"
-                                                          uploadLabel="Upload ARFF"
-                                                          cancelLabel="Cancel"
-                                                          label="Select"
-                                                          update=":form1:view2" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(arff)$/" />
-                                        </p:outputPanel>
-                                    </p:tab>
+                                        <p:tab title="Upload new training Dataset">
+                                            <p:outputPanel styleClass="p">
+                                                <small>(requerido</small>
+                                                <label>Dataset: </label>
+                                                <p:selectOneMenu value="#{verificatorController.trainName}" styleClass="field" id="files" style="width: 300px">
+                                                    <f:selectItems value="#{verificatorController.fileManagerTrain.list()}" var="trainName"
+                                                                   itemLabel="#{trainName}" itemValue="#{trainName}"/>
+                                                </p:selectOneMenu>
+                                            </p:outputPanel>
+                                            <p:outputPanel styleClass="p">
+                                                <p:fileUpload fileUploadListener="#{verificatorController.uploadFileTrain}" mode="advanced" dragDropSupport="false"
+                                                              multiple="true"
+                                                              uploadLabel="Upload ARFF"
+                                                              cancelLabel="Cancel"
+                                                              label="Select"
+                                                              update=":form1:view2" sizeLimit="100000" fileLimit="3" allowTypes="/(\.|\/)(arff)$/" />
+                                            </p:outputPanel>
+                                        </p:tab>
                                     </p:accordionPanel>
 
                                     <div class="space"></div>
@@ -171,7 +184,10 @@
 
                                 </p:outputPanel>
                                 <p:outputPanel id="view3" deferred="true" rendered="#{verificatorController.step eq 3}">
-                                    <span class="instructions">Results of classification:</span>
+                                    <span class="instructions">
+                                        Results of classification:
+                                        <h:panelGroup rendered="#{verificatorController.preloaded}" style="display: block; font-size: 24px; text-align: center"><br/>#{verificatorController.performance*100}%</h:panelGroup>
+                                    </span>
                                     <p:dataTable var="resultClassification" value="#{verificatorController.resultClassify}"
                                                  rowStyleClass="white">
                                         <p:columns value="#{verificatorController.attributes}"
@@ -181,8 +197,11 @@
                                             </f:facet>
                                             #{resultClassification.pattern.get(colIndex)}
                                         </p:columns>
-                                        <p:column headerText="Calculated" styleClass="center" style="background-color: #{resultClassification.correct ? 'rgb(223, 240, 216);' : 'rgb(242, 222, 222);'}">
+                                        <p:column headerText="Classified" styleClass="center" style="background-color: #{resultClassification.correct || !verificatorController.preloaded ? 'rgb(223, 240, 216);' : 'rgb(242, 222, 222);'}">
                                             #{verificatorController.className(resultClassification.pattern.classIndex)}
+                                        </p:column>
+                                        <p:column headerText="Real Class" styleClass="center" style="background-color: #{resultClassification.correct ? 'rgb(223, 240, 216);' : 'rgb(242, 222, 222);'}" rendered="#{verificatorController.preloaded}">
+                                            #{verificatorController.className(resultClassification.realClass)}
                                         </p:column>
                                     </p:dataTable>
                                 </p:outputPanel>

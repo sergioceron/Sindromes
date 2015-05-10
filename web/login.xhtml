@@ -29,18 +29,7 @@
     <a name="top" id="top"></a>
 
     <h:form prependId="false" id="form2">
-        <p:outputPanel id="configsmNN">
-            <p:dialog id="mNN" header="System Access" widgetVar="mNNdlg" modal="true" height="50"
-                      resizable="false" closable="false" visible="true">
-                <p:outputPanel styleClass="p">
-                    <p:inputText value="#{verificatorController.key}" styleClass="field" style="width: 300px" />
-                </p:outputPanel>
 
-                <f:facet name="footer">
-                    <div align="center"><p:commandButton value="Enter" action="#{verificatorController.login}"/></div>
-                </f:facet>
-            </p:dialog>
-        </p:outputPanel>
     </h:form>
 
     <p:dialog widgetVar="about" modal="true" height="310" resizable="false" visible="false">
