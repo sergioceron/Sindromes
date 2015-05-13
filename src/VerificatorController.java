@@ -8,7 +8,6 @@
 
 import org.primefaces.event.FileUploadEvent;
 import org.primefaces.event.SelectEvent;
-import org.primefaces.event.TabChangeEvent;
 import org.primefaces.model.UploadedFile;
 import org.underserver.jbigmining.*;
 import org.underserver.jbigmining.classifiers.Gamma;
@@ -98,18 +97,18 @@ public class VerificatorController {
         }
     }
 
-    public void step(int id) {
-        step = id;
-    }
-
     public void next() {
-        if (step < 3)
-            step = step + 1;
+        if (step == 0)
+            setStep(1);
+        else if (step == 1 || step == 2 )
+            step = 3;
     }
 
     public void back() {
-        if (step > 0)
-            step = step - 1;
+        if (step == 3)
+            setStep(2);
+        else if (step == 1 || step == 2 )
+            step = 0;
     }
 
     public void uploadFileTrain(FileUploadEvent event) {
@@ -130,9 +129,9 @@ public class VerificatorController {
 
     public void train() {
         try {
-            if( step == 2 ) {
+            if( !preloaded ) {
                 trainFile = fileManagerTrain.read(trainName);
-            } else if ( step == 1 ){
+            } else {
                 trainFile = fileManagerPreloaded.read(selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTraining());
             }
 
@@ -146,14 +145,22 @@ public class VerificatorController {
         }
     }
 
+    public void toPreloaded(){
+        setPreloaded(true);
+        setStep(1);
+    }
+
+    public void toUpload(){
+        setPreloaded(false);
+        setStep(2);
+    }
+
     public void classify() {
         try {
-            if( step == 2 ) {
+            if( !preloaded ) {
                 testFile = fileManagerTest.read(testName);
-                preloaded = false;
-            } else if ( step == 1 ){
+            } else {
                 testFile = fileManagerPreloaded.read(selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTesting());
-                preloaded = true;
             }
 
             ARFFParser testParser = new ARFFParser(testFile);
@@ -281,6 +288,10 @@ public class VerificatorController {
 
     public void setStep(int step) {
         this.step = step;
+        if (this.step == 1 && !preloaded)
+            this.step = 2;
+        if (this.step == 2 && preloaded)
+            this.step = 1;
     }
 
     public DataSet getDataSet() {

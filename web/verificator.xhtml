@@ -28,19 +28,22 @@
 <h:body>
     <a name="top" id="top"></a>
     <h:form prependId="false" styleClass="classicform" id="form1">
+        <h:outputScript rendered="#{verificatorController.step ne -1}">
+            $('#j_idt11_modal').hide();
+        </h:outputScript>
     <div id="container" class="main">
 
         <div id="wrapper">
             <p:outputPanel id="login" deferred="true" rendered="#{verificatorController.step eq -1}">
                 <p:outputPanel>
                     <p:dialog header="System Access" widgetVar="logindlg" modal="true" height="50"
-                              resizable="false" closable="false" visible="true">
+                              resizable="false" closable="false" visible="#{verificatorController.step eq -1}">
                         <p:outputPanel styleClass="p">
                             <p:inputText value="#{verificatorController.key}" styleClass="field" style="width: 300px" />
                         </p:outputPanel>
 
                         <f:facet name="footer">
-                            <div align="center"><p:commandButton value="Enter" action="#{verificatorController.login}" update=":form1" oncomplete="logindlg.hide();"/></div>
+                            <div align="center"><p:commandButton value="Enter" action="#{verificatorController.login}" update=":form1"/></div>
                         </f:facet>
                     </p:dialog>
                 </p:outputPanel>
@@ -52,7 +55,7 @@
 
                         <div id="quicknav">
                             <div class="navR">
-                                <p:commandLink actionListener="#{verificatorController.next}" rel="prev" rendered="#{verificatorController.step lt 4}" update=":form1"> </p:commandLink>
+                                <p:commandLink actionListener="#{verificatorController.next}" rel="prev" rendered="#{verificatorController.step lt 3}" update=":form1"> </p:commandLink>
                             </div>
                             <div class="navL">
                                 <p:commandLink actionListener="#{verificatorController.back}" rel="prev" rendered="#{verificatorController.step gt 0}" update=":form1"> </p:commandLink>
@@ -111,8 +114,10 @@
                                     </div>
                                 </p:outputPanel>
                                 <p:outputPanel id="view1a" deferred="true" rendered="#{verificatorController.step eq 1}">
-                                    <span class="instructions">Select one of these pre-loaded Dataset in order to verify the performance.<br/><br/>Or you can upload your own dataset in ARFF format. <p:commandButton actionListener="#{verificatorController.setStep(2)}" value="Upload Dataset" update=":form1"/></span>
-                                    <span class="warning">The following Datatset were obtained from UCI repository and folded for cross validation.</span>
+                                    <span class="instructions">Select one of these pre-loaded Dataset in order to verify the performance.<br/><br/>Or you can upload your own dataset in ARFF format. <p:commandButton actionListener="#{verificatorController.toUpload()}" value="Upload Dataset" update=":form1"/></span>
+                                    <span class="warning">The following Datatset were obtained from UCI repository and folded for cross validation.<br/>
+                                        <i>Lichman, M. (2013). UCI Machine Learning Repository [<a href="http://archive.ics.uci.edu/ml">http://archive.ics.uci.edu/ml</a>]. Irvine, CA: University of California, School of Information and Computer Science.</i>
+                                    </span>
                                     <div>
                                         <p:accordionPanel value="#{verificatorController.preloadedSets}" var="preloadedSet" dynamic="true" cache="false" activeIndex="null">
                                             <p:tab title="#{preloadedSet.name}">
@@ -127,16 +132,13 @@
                                                     <p:column headerText="Testing Set">
                                                         #{file.testing}
                                                     </p:column>
-                                                    <p:column headerText="Original URL">
-                                                        #{file.url}
-                                                    </p:column>
                                                 </p:dataTable>
                                             </p:tab>
                                         </p:accordionPanel>
                                     </div>
                                 </p:outputPanel>
                                 <p:outputPanel id="view2" deferred="true" rendered="#{verificatorController.step eq 2}">
-                                    <span class="instructions">Upload your training and testing dataset in ARFF format (see arfflink).<br/><br/>Or your can try with the pre-loaded datasets. <p:commandButton actionListener="#{verificatorController.setStep(1)}" value="Pre-loaded Dataset" update=":form1"/></span>
+                                    <span class="instructions">Upload your training and testing dataset in ARFF format (see arfflink).<br/><br/>Or your can try with the pre-loaded datasets. <p:commandButton actionListener="#{verificatorController.toPreloaded()}" value="Pre-loaded Dataset" update=":form1"/></span>
                                     <span class="warning">When you upload both datasets, the ARFF must have the class in last column and it has to be a nominal value.</span>
                                     <div class="space"></div>
                                     <p:accordionPanel multiple="true">
