@@ -156,6 +156,7 @@ public class VerificatorController {
     }
 
     public void classify() {
+	    performance = 0;
         try {
             if( !preloaded ) {
                 testFile = fileManagerTest.read(testName);
