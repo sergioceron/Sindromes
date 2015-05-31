@@ -49,6 +49,7 @@
                 </p:outputPanel>
             </p:outputPanel>
             <div id="content" class="#{verificatorController.step lt 0 ? 'blur' : ''}">
+                <div style="text-align: right"><p:commandButton style="background: none red" value="Logout"  action="#{verificatorController.logout}" update=":form1" /></div>
                 <div class="fix">
 
                     <div class="left">
@@ -122,10 +123,12 @@
                                         <p:accordionPanel value="#{verificatorController.preloadedSets}" var="preloadedSet" dynamic="true" cache="false" activeIndex="null">
                                             <p:tab title="#{preloadedSet.name}">
                                                 <p:dataTable value="#{preloadedSet.files}" var="file"
-                                                             selection="#{verificatorController.selectedSet}"
+                                                             selection="#{verificatorController.selectedSets}"
                                                         rowKey="#{file.id}">
-                                                    <p:ajax event="rowSelectRadio" listener="#{verificatorController.onRowSelect}" />
-                                                    <p:column selectionMode="single" style="width:2%" />
+                                                    <p:ajax event="rowSelectCheckbox" process="@this"/>
+                                                    <p:ajax event="rowUnselectCheckbox" process="@this"/>
+                                                    <p:ajax event="toggleSelect" process="@this"/>
+                                                    <p:column selectionMode="multiple" style="width:2%" />
                                                     <p:column headerText="Training Set">
                                                         #{file.training}
                                                     </p:column>
@@ -138,7 +141,7 @@
                                     </div>
                                 </p:outputPanel>
                                 <p:outputPanel id="view2" deferred="true" rendered="#{verificatorController.step eq 2}">
-                                    <span class="instructions">Upload your training and testing dataset in ARFF format (see arfflink).<br/><br/>Or your can try with the pre-loaded datasets. <p:commandButton actionListener="#{verificatorController.toPreloaded()}" value="Pre-loaded Dataset" update=":form1"/></span>
+                                    <span class="instructions">Upload your training and testing dataset in ARFF format (see <a href="http://www.cs.waikato.ac.nz/ml/weka/arff.html">http://www.cs.waikato.ac.nz/ml/weka/arff.html</a>).<br/><br/>Or your can try with the pre-loaded datasets. <p:commandButton actionListener="#{verificatorController.toPreloaded()}" value="Pre-loaded Dataset" update=":form1"/></span>
                                     <span class="warning">When you upload both datasets, the ARFF must have the class in last column and it has to be a nominal value.</span>
                                     <div class="space"></div>
                                     <p:accordionPanel multiple="true">
@@ -214,7 +217,7 @@
                         <div class="foot">
                             <p:outputPanel id="buttons">
                                 <p:commandButton update=":form1" id="backBtn" disabled="#{verificatorController.step eq 0}" actionListener="#{verificatorController.back}" value="Back" />
-                                <p:commandButton update=":form1" id="nextBtn" disabled="#{verificatorController.step eq 2}" actionListener="#{verificatorController.next}" rendered="#{verificatorController.step eq 0}" value="Next" styleClass="ui-button-success"/>
+                                <p:commandButton update=":form1" id="nextBtn" disabled="#{verificatorController.step eq 2}" actionListener="#{verificatorController.next}" rendered="#{verificatorController.step eq 0}" value="Next" styleClass="ui-button-success" process="@all"/>
                                 <p:commandButton update=":form1" process="@all" id="validateBtn" value="Classify" actionListener="#{verificatorController.proccess}" rendered="#{verificatorController.step eq 2 or verificatorController.step eq 1}" onstart="statusDialog.show();" onsuccess="statusDialog.hide();" />
                             </p:outputPanel>
                         </div>

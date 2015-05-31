@@ -1,6 +1,6 @@
 import org.primefaces.model.SelectableDataModel;
-import org.underserver.jbigmining.Algorithm;
-import org.underserver.jbigmining.AlgorithmInformation;
+import org.underserver.jbigmining.core.Algorithm;
+import org.underserver.jbigmining.core.AlgorithmInformation;
 
 import javax.faces.model.ListDataModel;
 import java.util.List;

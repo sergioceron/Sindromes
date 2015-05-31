@@ -1,4 +1,4 @@
-import org.underserver.jbigmining.Pattern;
+import org.underserver.jbigmining.core.Pattern;
 
 /**
  * Created by sergio on 22/04/15.

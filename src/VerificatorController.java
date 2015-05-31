@@ -9,9 +9,9 @@
 import org.primefaces.event.FileUploadEvent;
 import org.primefaces.event.SelectEvent;
 import org.primefaces.model.UploadedFile;
-import org.underserver.jbigmining.*;
 import org.underserver.jbigmining.classifiers.Gamma;
 import org.underserver.jbigmining.classifiers.GammaDummy;
+import org.underserver.jbigmining.core.*;
 import org.underserver.jbigmining.exceptions.ParserException;
 import org.underserver.jbigmining.parsers.ARFFParser;
 import org.underserver.jbigmining.parsers.SmartParser;
@@ -21,9 +21,7 @@ import javax.faces.bean.SessionScoped;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @ManagedBean
 @SessionScoped
@@ -56,7 +54,7 @@ public class VerificatorController {
 
     private DataSet dataSet;
 
-    private DualSet selectedSet;
+    private DualSet[] selectedSets;
 
     private List<PreloadedSet> preloadedSets;
 
@@ -84,13 +82,18 @@ public class VerificatorController {
 
     public void login() {
         List<Algorithm> algorithms = new ArrayList<Algorithm>();
+        Algorithm algorithm;
         if (key.equals("mdk2")) {
-            algorithms.add(new Gamma());
+            algorithm = new Gamma();
+            algorithms.add( algorithm );
             algorithmModel = new AlgorithmModel(new ArrayList<Algorithm>(algorithms));
+            selectedAlgorithm = algorithm;
             step = 0;
         } else if (key.equals("v3c1")) {
-            algorithms.add(new GammaDummy());
+            algorithm = new GammaDummy();
+            algorithms.add( algorithm );
             algorithmModel = new AlgorithmModel(new ArrayList<Algorithm>(algorithms));
+            selectedAlgorithm = algorithm;
             step = 0;
         } else {
             step = -1;
@@ -123,16 +126,26 @@ public class VerificatorController {
 
 
     public void proccess(){
-        train();
-        classify();
+        resultClassify.clear();
+        performance = 0;
+        if( preloaded )
+            for( DualSet selectedSet : selectedSets ) {
+                train(selectedSet);
+                performance += classify(selectedSet);
+            }
+        else {
+            train(null);
+            performance += classify(null);
+        }
+        performance /= (double) selectedSets.length;
     }
 
-    public void train() {
+    public void train(DualSet selectedSet) {
         try {
             if( !preloaded ) {
                 trainFile = fileManagerTrain.read(trainName);
             } else {
-                trainFile = fileManagerPreloaded.read(selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTraining());
+                trainFile = fileManagerPreloaded.read( selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTraining() );
             }
 
             Parser trainParser = new SmartParser(trainFile);
@@ -155,32 +168,36 @@ public class VerificatorController {
         setStep(2);
     }
 
-    public void classify() {
-	    performance = 0;
+    public void logout(){
+        step = -1;
+    }
+
+    public double classify(DualSet selectedSet) {
+	    double _performance = 0;
         try {
             if( !preloaded ) {
                 testFile = fileManagerTest.read(testName);
             } else {
-                testFile = fileManagerPreloaded.read(selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTesting());
+                testFile = fileManagerPreloaded.read( selectedSet.getDataSet() + "/Split Data/" + selectedSet.getTesting());
             }
 
             ARFFParser testParser = new ARFFParser(testFile);
             DataSet testSet = new DataSet(dataSet);
             testParser.readData(testSet);
 
-            resultClassify.clear();
             for (Pattern p : testSet) {
                 int clazz = ((Classifier) (selectedAlgorithm)).classify(p);
                 int real = preloaded ? p.getClassIndex() : -1;
                 p.setClassIndex(clazz);
                 resultClassify.add(new ComparatorEntity(p, real, p.getClassIndex() == real));
-                performance += p.getClassIndex() == real ? 1 : 0;
+                _performance += p.getClassIndex() == real ? 1 : 0;
             }
-            performance /= (double) testSet.size();
+            _performance /= (double) testSet.size();
             step = 3;
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return _performance;
     }
 
     public String className(int classIndex) {
@@ -315,8 +332,8 @@ public class VerificatorController {
         this.preloadedSets = preloadedSets;
     }
 
-    public DualSet getSelectedSet() {
-        return selectedSet;
+    public DualSet[] getSelectedSets() {
+        return selectedSets;
     }
 
     public boolean isPreloaded() {
@@ -335,13 +352,20 @@ public class VerificatorController {
         this.preloaded = preloaded;
     }
 
-    public void setSelectedSet(DualSet selectedSet) {
-        //this.selectedSet = selectedSet;
+    public void setSelectedSets( DualSet[] selectedSets ) {
+        if( selectedSets != null && selectedSets.length > 0)
+            this.selectedSets = selectedSets;
     }
 
     public void onRowSelect(SelectEvent event) {
-        DualSet dset = (DualSet) event.getObject();
-        this.selectedSet  =  dset;
+        /*DualSet dset = (DualSet) event.getObject();
+        this.selectedSets  =  dset;*/
+    }
+
+    public void onToggleSelect(org.primefaces.event.ToggleEvent event) {
+        int a = 5;
+        /*DualSet dset = (DualSet) event.getObject();
+        this.selectedSets  =  dset;*/
     }
 
     public String[] getAttributes() {
